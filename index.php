@@ -19,11 +19,11 @@ $l[1]->abrirConta("CP", "Eduarda");
 echo $l[1]->depositar(50);
 
 //Realiza Saque
-echo $l[1]->sacar(450, 'CC');
+echo $l[1]->sacar(40, 'CC');
 
 //Realiza Transferencia
 $movimentacao = new Transferencia();
-$movimentacao->transferir($l[1],$l[0],0);
+$movimentacao->transferir($l[1],$l[0],100);
         ?>
         </pre>
     </body>
